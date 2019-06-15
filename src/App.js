@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <main>
         <Header />
-        {Router}
+          {Router}
         <Footer />
       </main>
     );
