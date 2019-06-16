@@ -1,0 +1,108 @@
+.limitContentContainer {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.limitCategoryContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 1px solid #E3E3E3;
+    margin: 0 0 1em 0;
+    padding-top: 2em;
+}
+
+.limitBreadcrumb {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    margin-left: 1.25em;
+    border-bottom: 1px solid #E3E3E3;
+    padding-bottom: .75em;
+}
+
+.limitBreadcrumb a,
+.limitBreadcrumb a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+.limitBreadcrumb h1 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-right: .4em;
+}
+
+.limitBreadcrumb h2 {
+    font-size: 1em;
+    font-weight: 700;
+    color: red;
+}
+
+.rightArrow {
+    margin-left: .25em;
+    font-weight: 400;
+    font-weight: 700;
+}
+
+.limitProductsDisplay {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+@media(min-width: 700px) {
+
+    .limitBreadcrumb {
+        padding-bottom: .75em;
+        padding-top: 1em;
+        border-bottom: none;
+
+    }
+
+    .limitBreadcrumb h1 {
+        font-size: 3em;
+    }
+
+    .limitBreadcrumb h2 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media(min-width: 1300px) {
+
+    .limitCategoryContainer {
+        width: 60%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 1em 0;
+    }
+
+    .limitBreadcrumb {
+        margin-left: 1.25em;
+        border-bottom: none;
+    }
+
+    .limitBreadcrumb a {
+        text-decoration-line: none;
+    }
+
+    .limitBreadcrumb h1 {
+        font-size: 2.5em;
+    }
+
+    .limitBreadcrumb h2 {
+        font-size: 1.25em;
+    }
+}

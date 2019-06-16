@@ -1,0 +1,101 @@
+@keyframes fadeInDown {
+    from {
+        opacity: 1;
+        height: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+        min-height: 45vh;
+        animation-play-state: paused;
+    }
+}
+
+.dropdownMenuContainer {
+    width: 100%;
+    min-height: 50vh;
+    background-color: #E3E3E3;
+    display: flex;
+    flex-direction: column;
+    animation: fadeInDown 500ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+
+}
+
+.categoryContainer {
+    height: 30vh;
+    padding-top: 2.5vh;
+}
+
+
+.dropdownContainer {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownCategory,
+.submenu {
+    background: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.dropdownCategory h1,
+.dropdownUserLinks h1 {
+    font-weight: 900;
+    font-size: 1.25em;
+    margin-left: 1em;
+}
+
+.downArrow {
+    display: flex;
+    height: 1.5vh;
+    margin-right: 1em;
+}
+
+.submenu {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 2em;
+    background-color: #EBEBED;
+}
+
+.submenu h1 {
+    font-weight: 400;
+    font-size: 1.15em;
+
+}
+
+.backpacks {
+    min-height: 125px;
+}
+
+.dropdownUserLinks {
+    min-height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #EBEBED;
+
+}
+
+.dropdownUserLinks h1 {
+    margin-top: 6vh;
+}
+
+.submenu a {
+    text-decoration-line: none;
+    color: #2A2A2A;
+}

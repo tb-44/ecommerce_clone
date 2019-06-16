@@ -1,0 +1,27 @@
+.limitBreadcrumb h1 {
+    font-size: 1.5em;
+}
+
+.limitBreadcrumb h2 {
+    font-size: 1em;
+}
+
+@media(min-width: 700px) {
+    .limitBreadcrumb h1 {
+        font-size: 3em;
+    }
+
+    .limitBreadcrumb h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media(min-width: 1300px) {
+    .limitBreadcrumb h1 {
+        font-size: 2.5em;
+    }
+
+    .limitBreadcrumb h2 {
+        font-size: 1.25em;
+    }
+}

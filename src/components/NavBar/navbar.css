@@ -1,0 +1,151 @@
+.navBarContainer {
+    display: none;
+}
+
+/*IPAD VIEW*/
+
+@media(min-width: 400px) {
+
+    .navBarDesktop {
+        display: none;
+    }
+
+    .navBariPad {
+        display: flex;
+        background-color: white;
+    }
+
+    .navBarContainer {
+        display: flex;
+        position: relative;
+        width: 100%;
+    }
+
+    .topNav {
+        height: 10vh;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        font-weight: 900;
+    }
+
+    .userLinks {
+        height: 45%;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 64%;
+        padding-right: 2em;
+        font-size: 0.8em;
+        letter-spacing: 0.07em;
+    }
+
+    .userLinks a {
+        text-decoration-line: none;
+        font-weight: 900;
+        color: #2A2A2A;
+        height: 100%;
+    }
+
+    .cartButton {
+        height: 100%;
+        width: auto;
+        padding: 0 1.5em;
+        display: flex;
+        align-items: center;
+    }
+
+    .navLinks {
+        width: 55%;
+        height: 55%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 1.5em;
+        padding-bottom: 0.1em;
+        letter-spacing: 0.07em;
+        font-size: 15px;
+    }
+
+    .navLinks li {
+        padding-right: 2.5em;
+        list-style-type: none;
+    }
+
+    .navLinks a {
+        text-decoration-line: none;
+        font-weight: 900;
+        color: #2A2A2A;
+    }
+
+    .navLinks a:visited {
+        color: #2A2A2A;
+    }
+
+    .navLinks a:hover {
+        color: #E72B1E;
+    }
+
+}
+
+
+/*DESKTOP VIEW*/
+
+@media(min-width: 800px) {
+
+    .navBariPad {
+        display: none;
+    }
+
+    .navBarDesktop {
+        display: flex;
+        width: 100%;
+    }
+
+    .topNav {
+        position: relative;
+    }
+
+    .hoverBridge {
+        position: absolute;
+        height: 3vh;
+        min-width: 8.75vh;
+        left: -.5vh;
+        top: 8vh;
+        z-index: 90;
+        background-color: transparent;
+
+    }
+
+    .hoverBridgeWomens {
+        position: absolute;
+        height: 3vh;
+        min-width: 10.5vh;
+        left: 8.75vh;
+        top: 8vh;
+        z-index: 90;
+        background-color: transparent;
+    }
+
+    .hoverBridgeBackpacks {
+        position: absolute;
+        height: 3vh;
+        min-width: 14vh;
+        left: 20vh;
+        top: 8vh;
+        z-index: 90;
+        background-color: transparent;
+    }
+
+    .userLinks {
+        font-size: 0.8em;
+    }
+
+    .navLinks {
+        padding-left: 0.6em;
+    }
+
+}
