@@ -41,6 +41,7 @@ body {
 
 .tnfLogo {
     min-height: 7vh;
+    height: 25px;
 }
 
 .mobileNavIcons {
@@ -174,6 +175,7 @@ body {
 
     .tnfLogo {
         min-height: 10vh;
+        height: 25px;
     }
 
     .cartItemsCount {
@@ -211,6 +213,7 @@ body {
     .tnfLogo {
         min-height: 8vh;
         flex-grow: 1;
+        height: 25px;
     }
 
 }
