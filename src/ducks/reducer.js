@@ -5,7 +5,6 @@ const initialState = {
     totalCartCost: 0
 }
 
-
 const ADD_TO_CART = "ADD_TO_CART";
 const REMOVE_FROM_CART = "REMOVE_FROM_CART";
 const PERSIST_REHYDRATE = 'persist/REHYDRATE';
@@ -20,7 +19,6 @@ export default function reducer(state = initialState, action) {
         case ADD_TO_CART:
 
             let flag = false;
-
 
             checkedCart = state.cart.map(product => {
 
@@ -76,14 +74,11 @@ export default function reducer(state = initialState, action) {
         case PERSIST_REHYDRATE:
             return { ...state, persistedState: action.payload };
 
-
         default:
             return state;
     }
 
 };
-
-
 
 export function addToCart(productState) {
     return {
