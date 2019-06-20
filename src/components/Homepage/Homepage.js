@@ -38,9 +38,6 @@ export default function Homepage(props) {
               <h3>BACKPACKS</h3>
             </div>
           </Link>
-
-
-
         </div>
 
         <div className="feature">
@@ -69,6 +66,5 @@ export default function Homepage(props) {
         </div>
       </section>
     </main>
-
   )
 }
